@@ -10,6 +10,6 @@
 // DISPLAY REQUIREMENTS///////////////////////
 // near top shows current day
 // colors show rather timeslot is in the past, present, or future (changes depending on the hour)
-    // use https://momentjs.com/ to work with date and time
+    // use https://momentjs.com/ to work with date and time https://momentjs.com/docs/#/use-it/browser/
 
 

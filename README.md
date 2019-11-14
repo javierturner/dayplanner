@@ -13,3 +13,5 @@ event schedule: https://www.liquidlight.co.uk/blog/create-an-event-schedule-with
 codepen: https://codepen.io/liquidlight/pen/agymdX?editors=1100
 
 codepen columns width: https://codepen.io/ThibaultG4U/pen/yJQkXw
+
+moment tutorial: https://www.webfx.com/blog/web-design/javascript-dates-moment-js/

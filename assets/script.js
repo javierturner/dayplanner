@@ -11,18 +11,35 @@
 
 //date/moment.js////////////////////////////////////////////
 
-var date = moment().format("dddd, MMMM Do, YYYY")
-var time = moment().format("h:mm:ss a")
+var date = moment().format("dddd, MMMM Do, YYYY");
+var currentTime = moment().format("h:mm:ss a");
 var displayDate = document.querySelector("#displayDate");
 
 var h3 = document.createElement("h3");
 h3.textContent = date;
 displayDate.appendChild(h3);
 
-console.log(time);
+console.log(currentTime);
+
+
+//change time slot colors//////////////////////////////////////////////
+
+var five = $("#input5");
+var date1 = moment().format('h A');
+console.log(date1);
+
+if (date1 === "5 PM") {
+    five.addClass("present");
+}
+
+
+
+
+
 
 
 //save button & local storage///////////////////////////////////////////////
+
 //9
 $(".saveBtn").click(function () {
     var userEvent = $("#input9").val();

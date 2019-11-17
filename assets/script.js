@@ -1,14 +1,3 @@
-// DISPLAY REQUIREMENTS///////////////////////
-// colors show rather timeslot is in the past, present, or future (changes depending on the hour)
-
-// use https://momentjs.com/ to work with date and time https://momentjs.com/docs/#/use-it/browser/
-
-
-//when time = __, change color of textarea
-//when 12:00 am hits, reset planner or include reset button
-
-
-
 //date/moment.js////////////////////////////////////////////
 
 var date = moment().format("dddd, MMMM Do, YYYY");
@@ -25,11 +14,128 @@ console.log(currentTime);
 //change time slot colors//////////////////////////////////////////////
 
 var five = $("#input5");
+var four = $("#input4")
+var three = $("#input3")
+var two = $("#input2")
+var one = $("#input1")
+var twelve = $("#input12")
+var eleven = $("#input11")
+var ten = $("#input10")
+var nine = $("#input9")
 var date1 = moment().format('h A');
 console.log(date1);
+//5
+if (date1 === "5 PM"){
+    five.addClass("present")
+}
 
-if (date1 === "5 PM") {
-    five.addClass("present");
+else {
+    five.addClass("future")
+}
+
+
+//4
+if (date1 === "4 PM"){
+    four.addClass("present")
+}
+
+else if (date1 > "4 PM") {
+    four.addClass("past");
+}
+
+else {
+    four.addClass("future")
+}
+
+//3
+if (date1 === "3 PM"){
+    three.addClass("present")
+}
+
+else if (date1 > "3 PM") {
+    three.addClass("past");
+}
+
+else {
+    three.addClass("future")
+}
+
+//2
+if (date1 === "2 PM"){
+    two.addClass("present")
+}
+
+else if (date1 > "2 PM") {
+    two.addClass("past");
+}
+
+else {
+    two.addClass("future")
+}
+
+//1
+if (date1 === "1 PM"){
+    one.addClass("present")
+}
+
+else if (date1 > "1 PM") {
+    one.addClass("past");
+}
+
+else {
+    one.addClass("future")
+}
+
+//12
+if (date1 === "12 PM"){
+    twelve.addClass("present")
+}
+
+else if (date1 > "12 PM") {
+    twelve.addClass("past");
+}
+
+else {
+    twelve.addClass("future")
+}
+
+//11
+if (date1 === "11 AM"){
+    eleven.addClass("present")
+}
+
+else if (date1 > "11 AM") {
+    eleven.addClass("past");
+}
+
+else {
+    eleven.addClass("future")
+}
+
+//10
+if (date1 === "10 AM"){
+    ten.addClass("present")
+}
+
+else if (date1 > "10 AM") {
+    ten.addClass("past");
+}
+
+else {
+    ten.addClass("future")
+}
+
+//9
+if (date1 === "9 AM"){
+    nine.addClass("present")
+}
+
+else if (date1 > "9 AM") {
+    nine.addClass("past");
+}
+
+else {
+    nine.addClass("future")
 }
 
 

@@ -1,4 +1,8 @@
 body {
+    background-image: url(images//photo-of-ferris-wheel-with-neon-lights-at-night-1821349.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
@@ -15,11 +19,23 @@ textarea{
   
 .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: rgba(252, 193, 131, 0.705);
+    color: #E8EBE4;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #E8EBE4;
+
   }
+
+h1 {
+    font-style: italic;
+    font-weight: bold !important;
+    text-shadow: 4px 3px #1C2735;
+}
+
+h3 {
+    text-shadow: 1px 1px #E8EBE4;
+    color: #1C2735;
+}
   
 .description{
     white-space: pre-wrap;
@@ -29,11 +45,16 @@ textarea{
     text-align: center;
     border-radius: 15px;
   }
+
+.hour-label {
+    background-color: #E8EBE4;
+    width: 120px;
+}
   
 .row {
     white-space: pre-wrap;
     height: 80px;
-    border-top: 1px solid white;;
+    border-top: 1px solid #E8EBE4;;
   }
   
 .hour {
@@ -43,17 +64,17 @@ textarea{
   }
   
 .past {
-    background-color: blue;
+    background-color: #66A182;
     color: white;
   }
   
 .present {
-    background-color: #ff6961;
+    background-color: #FCC183;
     color: white;
   }
   
 .future {
-    background-color: #77dd77;
+    background-color: #A9D6AD;
     color: white;
   }
   
@@ -61,8 +82,8 @@ textarea{
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
+    background-color: #1C2735;
+    color: #A9D6AD;
   }
   
 .saveBtn i:hover {
@@ -70,4 +91,10 @@ textarea{
     transition: all .3s ease-in-out;
   }
   
-  
+.input-group {
+      padding: 2px;
+  }
+
+.fiveBlock {
+    margin-bottom: 100px;
+}

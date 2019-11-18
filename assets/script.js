@@ -25,17 +25,21 @@ var nine = $("#input9")
 var date1 = moment().format('h A');
 console.log(date1);
 //5
-if (date1 === "5 PM"){
-    five.addClass("present")
+if (date1 === "5 PM") {
+    five.addClass("present");
+}
+
+else if (date > "5 PM") {
+    five.addClass("past");
 }
 
 else {
-    five.addClass("future")
+    five.addClass("future");
 }
 
 
 //4
-if (date1 === "4 PM"){
+if (date1 === "4 PM") {
     four.addClass("present")
 }
 
@@ -48,7 +52,7 @@ else {
 }
 
 //3
-if (date1 === "3 PM"){
+if (date1 === "3 PM") {
     three.addClass("present")
 }
 
@@ -61,7 +65,7 @@ else {
 }
 
 //2
-if (date1 === "2 PM"){
+if (date1 === "2 PM") {
     two.addClass("present")
 }
 
@@ -74,7 +78,7 @@ else {
 }
 
 //1
-if (date1 === "1 PM"){
+if (date1 === "1 PM") {
     one.addClass("present")
 }
 
@@ -87,7 +91,7 @@ else {
 }
 
 //12
-if (date1 === "12 PM"){
+if (date1 === "12 PM") {
     twelve.addClass("present")
 }
 
@@ -100,7 +104,7 @@ else {
 }
 
 //11
-if (date1 === "11 AM"){
+if (date1 === "11 AM") {
     eleven.addClass("present")
 }
 
@@ -113,7 +117,7 @@ else {
 }
 
 //10
-if (date1 === "10 AM"){
+if (date1 === "10 AM") {
     ten.addClass("present")
 }
 
@@ -126,22 +130,11 @@ else {
 }
 
 //9
-if (date1 === "9 AM"){
+if (date1 === "9 AM") {
     nine.addClass("present")
 }
 
-else if (date1 > "9 AM") {
-    nine.addClass("past");
-}
-
-else {
-    nine.addClass("future")
-}
-
-
-
-
-
+else (nine.addClass("past"));
 
 
 //save button & local storage///////////////////////////////////////////////

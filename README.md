@@ -1,36 +1,36 @@
 # JT Turner's Workday Planner
 
-##Links to deployed application
+## Links to deployed application
 Github Pages: https://github.com/javierturner/dayplanner
 Deployed Application: https://javierturner.github.io/dayplanner/index.html#
 
 
-##Installation
+## Installation
 
 There is no installation required for this project.
 
 
-##Usage
+## Usage
 
 The purpose of this was to demonstrate my understanding of local storage, usage of APIs, as well as other JavaScript functions and methods, all while making a functional, usable webpage.
 
 
-##Functionality
+## Functionality
 This website functions by allowing the user to enter their tasks into input fields, then pressing a "save" button, which then stores that information in the page's local storage. It remains there until the user manually clears the fields. Using moment.js API, each input field also changes colors based on the time of day (specific colors depending on if the time is in the past, present, or future). The same API also allows the current date to be displayed at the top of the page.
 
 
-##Credits
+## Credits
 
 ° https://www.webfx.com/blog/web-design/javascript-dates-moment-js/
 
 
-##Screenshots of completed application
+## Screenshots of completed application
 
 ![iPad Pro_workday planner](assets/images/iPadProScreenshot.png)
 ![iPhone X_workday planner](assets/images/iPhoneXScreenshot.png)
 
 
-##License
+## License
 
 MIT License
 
